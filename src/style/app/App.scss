@@ -1,0 +1,26 @@
+html {
+   font-size:62.5%; 
+}
+
+body, * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// $breakpoints: (
+//         "xs": 366px,
+//         "sm" : 576px,
+//         "md" : 768px,
+//         "lg" : 992px,
+//         "xl" : 1200px,
+//         "xxl" : 1400px,
+//         "xxxl" : 1700px
+// );
+
+.carousel-container {
+  width: 992px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}

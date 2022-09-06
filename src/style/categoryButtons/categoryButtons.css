@@ -1,0 +1,23 @@
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1.8rem;
+  padding: 2em 0 2em;
+}
+
+.btn {
+  border: 1px solid #29557c;
+  background-color: transparent;
+  border-radius: 50px;
+  font-size: 1.6rem;
+  color: #29557c;
+  padding: 0.3em 3em;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.active {
+  background: linear-gradient(274.15deg, #2A577E 3.47%, #12395D 66.48%);
+  color: #fff;
+  font-weight: 700;
+}/*# sourceMappingURL=categoryButtons.css.map */

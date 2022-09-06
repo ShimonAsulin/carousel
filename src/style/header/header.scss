@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700&display=swap');
+
+
+$font-Lato: Lato, sans-serif;
+$font-Roboto: Helvetica, sans-serif;
+$primary-color: #12395D;
+$secondery-color: #1E0D38;
+
+.header-title {
+    font-family: $font-Lato;
+    color: $primary-color;
+    font-size: 4.2rem;
+    text-align: center;
+}
+.header-subtitle {
+    font-family: $font-Lato;
+    color: $secondery-color;
+    font-size: 2rem;
+    text-align: center;
+
+}
