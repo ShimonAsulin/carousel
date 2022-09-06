@@ -1,36 +1,66 @@
-.swiper {
-    width: 100%;
-    height: 300px;
-  }
-  
-  .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-  
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-  }
-  
-  .swiper-slide img {
-    // display: block;
-    // width: 100px;
-    // height: 100px;
-    // object-fit: fill;
-  }
-  
-//   .logo-img {
-//     width: 50px;
-//     height: 50px;
+// .swiper {
+//     width: 100%;
+//     height: 300px;
 //   }
+
+//   .swiper-slide {
+//     text-align: center;
+//     font-size: 18px;
+//     background: #fff;
+
+//     /* Center slide text vertically */
+//     display: -webkit-box;
+//     display: -ms-flexbox;
+//     display: -webkit-flex;
+//     display: flex;
+//     -webkit-box-pack: center;
+//     -ms-flex-pack: center;
+//     -webkit-justify-content: center;
+//     justify-content: center;
+//     -webkit-box-align: center;
+//     -ms-flex-align: center;
+//     -webkit-align-items: center;
+//     align-items: center;
+//   }
+
+//   .swiper-slide img {
+//     // display: block;
+//     // width: 200px;
+//     // height: 200px;
+//     // object-fit: fill;
+//   }
+
+.card {
+  margin-left: 1em;
+  width: 242px;
+  height: 337px;
+}
+
+.logo-img {
+  width: 242px;
+  height: 100px;
+}
+.card-details {
+  border: 2px dashed #1D8EFA;
+}
+.exclusive-tag {
+  position: relative;
+  top:-16px;
+  left: -10px;
+
+}
+.card-title {
+
+}
+.card-precent {
+
+}
+.card-price {
+
+}
+.card-spins {
+
+}
+.card-gold {
+  
+}

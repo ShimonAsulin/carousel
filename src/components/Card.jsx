@@ -1,46 +1,23 @@
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
-import "../style/card/card.scss";
-// import required modules
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Navigation } from "swiper";
+import '../style/card/card.scss'
 
-import data from "../data";
-console.log(data[0].img);
-const Card = () => {
+const Card = ({ img, price, exclusive }) => {
   return (
-    <>
-      <Swiper
-        slidesPerView={3}
-        spaceBetween={30}
-        slidesPerGroup={3}
-        loop={true}
-        loopFillGroupWithBlank={true}
-        pagination={{
-          clickable: true,
-        }}
-        navigation={true}
-        modules={[Pagination, Navigation]}
-        className="mySwiper"
-      >
-        <SwiperSlide>
-          <div>
-            <img src={data[0].img} className="logo-img"></img>
-            <h3>{data[0].title}</h3>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
-      </Swiper>
-    </>
+    <div className="card">
+      <img src={img} className="logo-img" />
+      <div className="card-details">
+        {exclusive && <img className="exclusive-tag" src={exclusive} />}
+        <h2 className="card-title">No DEPOSIT BONUS</h2>
+        <h5 className="card-precent">400% up to</h5>
+        <h3 className="card-price">{price}</h3>
+        <h4 className="card-spins">+ 100 Free Spins </h4>
+        <h5 className="card-gold">on Cleopatra's Gold</h5>
+        <div className="card-section">
+        <button className="card-btn">Play</button>
+        <img src="https://raw.githubusercontent.com/ShimonAsulin/carousel/master/src/asset/images/Flag.png" alt="Flag" />
+        </div>
+        <img src="https://raw.githubusercontent.com/ShimonAsulin/carousel/master/src/asset/images/!.png" alt="" />
+      </div>
+    </div>
   );
 };
 export default Card;

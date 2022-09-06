@@ -1,14 +1,20 @@
-.swiper {
-  width: 100%;
-  height: 300px;
+.card {
+  margin-left: 1em;
+  width: 242px;
+  height: 337px;
 }
 
-.swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-  /* Center slide text vertically */
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.logo-img {
+  width: 242px;
+  height: 100px;
+}
+
+.card-details {
+  border: 2px dashed #1D8EFA;
+}
+
+.exclusive-tag {
+  position: relative;
+  top: -16px;
+  left: -10px;
 }/*# sourceMappingURL=card.css.map */
