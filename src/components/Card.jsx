@@ -1,14 +1,14 @@
-import { Swiper, SwiperSlide } from "swiper/react";
-
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-
 import "../style/card/card.scss";
-
 // import required modules
+import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper";
+
+import data from "../data";
+console.log(data[0].img);
 const Card = () => {
   return (
     <>
@@ -26,9 +26,10 @@ const Card = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <h3>h3</h3>
-          <h4>h4</h4>
-          <h5>h5</h5>
+          <div>
+            <img src={data[0].img} className="logo-img"></img>
+            <h3>{data[0].title}</h3>
+          </div>
         </SwiperSlide>
         <SwiperSlide>Slide 2</SwiperSlide>
         <SwiperSlide>Slide 3</SwiperSlide>
@@ -41,5 +42,5 @@ const Card = () => {
       </Swiper>
     </>
   );
-}
-export default Card
+};
+export default Card;
