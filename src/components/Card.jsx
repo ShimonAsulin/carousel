@@ -2,7 +2,7 @@ import '../style/card/card.scss'
 
 const Card = ({ img, price, exclusive }) => {
   return (
-    <div className="card">
+    <div className="card" style={{margin: '0 auto'}}>
       <img src={img} className="logo-img" />
       <div className="card-details">
         <h2 className="card-title">NO DEPOSIT BONUS</h2>

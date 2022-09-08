@@ -6,11 +6,10 @@ import Categories from "./components/CategoryButtons";
 function App() {
   return (
     <div className="carousel">
-      <Header />
-      <Categories />
-      <div>
-        <Carousela />
-      </div>
+      {/* <Header />
+      <Categories /> */}
+
+      <Carousela />
     </div>
   );
 }

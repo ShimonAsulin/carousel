@@ -8,9 +8,20 @@ const cardData = data.map((element, index) => {
   const { img, price, exclusive } = element;
   return <Card key={index} img={img} price={price} exclusive={exclusive} />;
 });
-const dots = {
-  color: 'red'
-}
+// const CustomDot = ({ onMove, index, onClick, active }) => {
+//   // onMove means if dragging or swiping in progress.
+//   // active is provided by this lib for checking if the item is active or not.
+//   return (
+//     <>
+//     <li
+//       className={active ? "active" : "inactive"}
+//       onClick={() => onClick()}
+//     >
+//     </li>
+//       <div className="dot"></div>
+//       </>
+//   );
+// };
 
 const Carousela = () => {
   return (
@@ -25,7 +36,7 @@ const Carousela = () => {
         arrows
         centerMode={false}
         containerClass="container"
-        dotListClass={dots}
+        // customDot={<CustomDot />}
         draggable
         infinite
         itemClass=""
@@ -42,24 +53,38 @@ const Carousela = () => {
           },
           mobilexs: {
             breakpoint: {
-              max: 800,
-              min: 800,
+              max: 500,
+              min: 0,
             },
             items: 1,
           },
-          mobileS: {
+          mobilesm: {
             breakpoint: {
-              max: 800,
-              min: 800,
+              max: 700,
+              min: 500,
             },
             items: 2,
           },
-          tablet: {
+          mobilemd: {
             breakpoint: {
-              max: 1400,
-              min: 800,
+              max: 990,
+              min: 700,
             },
             items: 3,
+          },
+          mobilelg: {
+            breakpoint: {
+              max: 1200,
+              min: 990,
+            },
+            items: 4,
+          },
+          mobilexl: {
+            breakpoint: {
+              max: 1400,
+              min: 1200,
+            },
+            items: 5,
           },
         }}
         rewind={false}
