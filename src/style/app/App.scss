@@ -8,6 +8,7 @@ body, * {
   box-sizing: border-box;
 }
 
+
 // $breakpoints: (
 //         "xs": 366px,
 //         "sm" : 576px,
@@ -18,9 +19,11 @@ body, * {
 //         "xxxl" : 1700px
 // );
 
-.carousel-container {
-  width: 992px;
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
+.carousel {
+ 
+}
+.app-container {
+
+  min-height: 100vh;
+
 }

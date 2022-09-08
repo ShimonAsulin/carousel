@@ -1,5 +1,7 @@
 .carousel-container {
-  display: flex;
-  flex-direction: row;
-  width: 90%;
+  height: 300px;
+}
+
+.dotList {
+  color: red;
 }/*# sourceMappingURL=carousel.css.map */

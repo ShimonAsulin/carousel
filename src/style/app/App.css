@@ -8,9 +8,6 @@ body, * {
   box-sizing: border-box;
 }
 
-.carousel-container {
-  width: 992px;
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
+.app-container {
+  min-height: 100vh;
 }/*# sourceMappingURL=App.css.map */

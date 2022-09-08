@@ -1,14 +1,16 @@
-import './style/app/App.scss';
-import Carousel from './components/Carousel';
-import Header from './components/Header';
-import Categories from './components/CategoryButtons';
+import "./style/app/App.scss";
+import Carousela from "./components/Carousela";
+import Header from "./components/Header";
+import Categories from "./components/CategoryButtons";
 
 function App() {
   return (
-    <div>
+    <div className="carousel">
       <Header />
       <Categories />
-      <Carousel key={"key"}/>
+      <div>
+        <Carousela />
+      </div>
     </div>
   );
 }
