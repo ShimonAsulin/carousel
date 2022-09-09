@@ -20,7 +20,7 @@ const Carousela = () => {
         additionalTransfrom={0}
         arrows={false}
         centerMode={false}
-        containerClass="container"
+        containerClass="carousel"
         dotListClass="customDot"
         draggable
         infinite

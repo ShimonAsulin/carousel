@@ -1,8 +1,8 @@
-import '../style/card/card.scss'
+import "../style/card/card.scss";
 
 const Card = ({ img, price, exclusive }) => {
   return (
-    <div className="card" style={{margin: '0 auto'}}>
+    <div className="card" style={{ margin: "0 auto" }}>
       <img src={img} className="logo-img" />
       <div className="card-details">
         <h2 className="card-title">NO DEPOSIT BONUS</h2>
@@ -13,11 +13,19 @@ const Card = ({ img, price, exclusive }) => {
         <h5 className="card-gold">on Cleopatra's Gold</h5>
         {exclusive && <img className="exclusive-tag" src={exclusive} />}
         <div className="card-section">
-        <button className="card-btn">Play</button>
-        <img className="flag" src="https://raw.githubusercontent.com/ShimonAsulin/carousel/master/src/asset/images/Flag.png" alt="Flag" />
+          <button className="card-btn">Play</button>
+          <img
+            className="flag"
+            src="https://raw.githubusercontent.com/ShimonAsulin/carousel/master/src/asset/images/Flag.png"
+            alt="Flag"
+          />
         </div>
       </div>
-        <img className="quastion-mark" src="https://raw.githubusercontent.com/ShimonAsulin/carousel/master/src/asset/images/!.png" alt="" />
+      <img
+        className="quastion-mark"
+        src="https://raw.githubusercontent.com/ShimonAsulin/carousel/master/src/asset/images/!.png"
+        alt=""
+      />
     </div>
   );
 };

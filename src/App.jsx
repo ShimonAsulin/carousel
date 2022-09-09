@@ -7,7 +7,7 @@ import ShowAll from "./components/ShowAll";
 
 function App() {
   return (
-    <div className="carousel">
+    <div className="container">
       <Header />
       <Categories/>
       <Carousela />

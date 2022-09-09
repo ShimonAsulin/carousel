@@ -13,10 +13,9 @@ $blue-color: #29557c;
   border-radius: 50px;
   font-size: 1rem;
   color: $blue-color;
-  padding: .6em 2em;
+  padding: 0.6em 2em;
   font-weight: 400;
   cursor: pointer;
-  
 }
 
 .active {
@@ -34,7 +33,7 @@ $blue-color: #29557c;
 @media screen and (min-width: 768px) {
   .btn {
     font-size: 1.3rem;
-    padding: .6em 4em;
+    padding: 0.6em 4em;
   }
   .buttons {
     padding: 3em 0 5em;
