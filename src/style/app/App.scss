@@ -8,6 +8,13 @@ body, * {
   box-sizing: border-box;
 }
 
+*:focus {
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+}
+
 
 // $breakpoints: (
 //         "xs": 366px,
@@ -20,10 +27,5 @@ body, * {
 // );
 
 .carousel {
- 
-}
-.app-container {
-
-  min-height: 100vh;
-
+  margin: 50px 0;
 }

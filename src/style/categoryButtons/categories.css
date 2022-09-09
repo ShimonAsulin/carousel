@@ -1,0 +1,45 @@
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2em 0 2em;
+}
+
+.btn {
+  border: 1px solid #29557c;
+  background-color: transparent;
+  border-radius: 50px;
+  font-size: 1rem;
+  color: #29557c;
+  padding: 0.6em 2em;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.active {
+  background: linear-gradient(274.15deg, #2a577e 3.47%, #12395d 66.48%);
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.dot {
+  background-color: #000;
+  padding: 1em;
+  border-radius: 50%;
+}
+
+@media screen and (min-width: 768px) {
+  .btn {
+    font-size: 1.3rem;
+    padding: 0.6em 4em;
+  }
+  .buttons {
+    padding: 3em 0 5em;
+  }
+  .active {
+    background: linear-gradient(274.15deg, #2a577e 3.47%, #12395d 66.48%);
+    color: #fff;
+    font-weight: 600;
+  }
+}/*# sourceMappingURL=categories.css.map */

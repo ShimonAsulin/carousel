@@ -1,13 +1,10 @@
 const CustomDot = ({ onClick, active, index, carouselState }) => {
     const { currentSlide } = carouselState;
     return (
-      <li style={{ background: active ? "grey" : "initial" }}>
         <button
-          style={{ background: active ? "grey" : "initial" }}
+          className={active ? "dot-active" : "dot-inactive"}
           onClick={() => onClick()}
         />
-      </li>
     );
   };
-  
-  export default CustomDot; 
+  export default CustomDot
